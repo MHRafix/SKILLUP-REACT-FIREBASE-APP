@@ -1,0 +1,47 @@
+/* Instructor component css stye starts from here */
+.headingopfArea {
+    margin-bottom: 50px;
+}
+.instructorDemoView{
+    margin: 0px 0px 80px 0px;
+}
+
+.instructorCard {
+    text-align: center;
+    padding: 15px 12px;
+    background: var(--home-bg);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.instructorCard img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+p.about {
+    text-align: left;
+}
+
+h2.intructorName {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--headlineColor);
+    margin: 10px 0px;
+}
+
+h4.intructorPost {
+    font-size: 20px;
+    color: var(--headlineColor);
+    font-weight: 500;
+}
+
+.socialIcon span {
+    color: white;
+    background: var(--button-bg);
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0px 5px;
+}

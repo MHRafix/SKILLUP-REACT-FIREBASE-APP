@@ -1,0 +1,51 @@
+/* About page css style starts from here  */
+section .aboutUsArea .initialBanner {
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 90%)), url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_492755552_336645.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
+
+}
+.aboutPageWrapper {
+    padding: 0px 50px;
+}
+section .aboutUsArea .initialBanner .pageIntro h3.pageName {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+
+section .aboutUsArea .initialBanner {
+    display: flex;
+    align-items: center;
+}
+
+section .aboutUsArea .initialBanner .pageIntro span.breadCrumb {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+section .aboutUsArea .initialBanner .pageIntro a.homeLink {
+    text-decoration: none;
+}
+
+
+.aboutThemeDet{
+    margin: 50px 0px;
+}
+.video {
+    padding: 60px 0px;
+}
+.video .strategyVideo{
+    border-radius: 10px;
+}
+/* About page css style ends to here  */
+
+/*=======================================
+  Responsive Css Start from here 
+  =======================================*/
+  

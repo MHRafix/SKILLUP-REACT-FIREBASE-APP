@@ -1,0 +1,72 @@
+.loginForm {
+    background: var(--button-bg);
+    padding: 60px 0px;
+}
+
+.loginFormArea.m-auto {
+    width: 350px;
+}
+
+.mainForm {
+    background: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+h2.formHeading {
+    color: var(--button-bg);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input#inputField {
+    padding: 5px 10px;
+    border: 1px solid var(--button-bg);
+    color: var(--button-bg);
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    background: var(--button-bg);
+    color: white;
+    margin: 15px 0px;
+}
+
+h3.headingofApi {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+span#apiSite {
+    background: var(--button-bg);
+    margin: 0px 3px;
+    padding: 7px 8px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.apiIcon {
+    text-align: center;
+}
+
+.elseAway {
+    display: grid;
+    text-align: center;
+    margin: 15px 0px;
+}

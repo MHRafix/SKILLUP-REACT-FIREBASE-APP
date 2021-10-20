@@ -1,0 +1,62 @@
+/* Home Page Css style stats from here */
+.homeSection {
+    background: var(--home-bg);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.themeDet {
+    margin-top: 40px;
+}
+
+h2.headline {
+    font-size:  40px;
+    font-weight: 700;
+    color: var(--headlineColor);
+    line-height: 55px;
+}
+
+p.themePera {
+    color: var(--headlinecolor);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+button.buttonBnt {
+    color: var(--white);
+    background: var(--button-bg);
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+/*================================
+  Responsive css starts from here
+  ===============================*/
+
+@media only screen and (max-width: 992px){
+
+.homeSection {
+    background: var(--home-bg);
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.headingopfArea {
+    margin-bottom: 0px;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+.headingopfArea h1.heading {
+    font-size: 35px;
+}
+}
+
+/* Home Page Css style ends to here */

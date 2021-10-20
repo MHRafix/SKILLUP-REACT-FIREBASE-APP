@@ -1,0 +1,157 @@
+/* Single service page css style starts from here  */
+section .singleServiceArea .initialBanner {
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 90%)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbq3OBUAiq-aKPega7LkXnoLXqf2htwstFvsX9syLNZlDGw4ZTfaf378Q7YDeccbKdp9s&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
+
+}
+.aboutPageWrapper {
+    padding: 0px 50px;
+}
+section .singleServiceArea .initialBanner .pageIntro h3.pageName {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+
+section .singleServiceArea .initialBanner {
+    display: flex;
+    align-items: center;
+}
+
+section .singleServiceArea .initialBanner .pageIntro span.breadCrumb {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+section .singleServiceArea .initialBanner .pageIntro a.homeLink {
+    text-decoration: none;
+}
+
+.col-lg-12.col-md-12.col-sm-12 {
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #77767654;
+}
+
+img.img-fluid {
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+}
+
+h2.serviceTitle {
+    color: var(--headlineColor);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.details .dualInfo {
+    font-size: 22px;
+    display: flex;
+    font-weight: 700;
+    margin: -5px 0px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details .dualInfo b.regularfee1 {
+    text-decoration: line-through;
+    color: #efbbbb;
+    font-size: 20px;
+}
+
+.details .dualInfo b.saleFee1 {
+    font-size: 30px;
+    /* color: var(--button-bg); */
+}
+
+.details .dualInfo span.ratting1 {
+    color: var(--button-bg);
+}
+
+span.enrollBtn2 {
+    background: var(--button-bg);
+    color: var(--white);
+    padding: 8px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+span.enrollBtn2:hover {
+    letter-spacing: 1px;
+}
+
+/*===================================
+  Responsive css starts from here 
+  ===================================*/
+
+@media only screen and (max-width: 992px){
+.aboutPageWrapper {
+    padding: 0 20px;
+}
+}
+
+@media only screen and (max-width: 500px){
+
+
+.details .dualInfo {
+    font-size: 18px;
+}
+  }
+
+@media only screen and (max-width: 425px){
+section .singleServiceArea .initialBanner .pageIntro h3.pageName {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+}
+
+@media only screen and (max-width: 375px){
+section .singleServiceArea .initialBanner .pageIntro h3.pageName {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+h2.serviceTitle {
+    font-size: 25px;
+}
+
+.details .dualInfo b.saleFee1 {
+    font-size: 25px;
+}
+
+.details .dualInfo {
+    font-size: 18px;
+}
+
+span.autorDet1 {
+    font-size: 14px;
+}
+
+span.durationtime1 {
+    font-size: 15px;
+}
+
+span.videoClass {
+    font-size: 15px;
+}
+
+span.enrollBtn2 {
+    font-size: 14px;
+}
+
+  }

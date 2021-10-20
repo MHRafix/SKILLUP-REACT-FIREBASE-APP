@@ -1,0 +1,61 @@
+/* Footer Css style starts from here  */
+footer .footerWrapper{
+    padding: 40px 50px;
+    box-shadow: 5px 2px 3px #efd8d8;
+    background: #ffffff;
+    background-color: var(--home-bg);
+    
+}
+.me-auto.navBars.nav {
+    display: grid;
+    margin-left: 50px;
+    width: 90px;
+}
+
+.me-auto.navBars.nav a.routingLink {
+    color: var(--headlinColor);
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: 400;
+    text-decoration: none;
+    width: auto;
+}
+
+.me-auto.navBars.nav a.routingLink:hover {
+    color: var(--button-bg);
+    border-bottom: 2px solid var(--button-bg);
+}
+
+
+
+/*==================================
+  Responsive Css stasrts from here
+  ==================================*/
+@media only screen and (max-width: 992px){
+
+ footer .footerWrapper {
+    padding: 40px 20px;
+}
+
+.me-auto.navBars.nav a.routingLink {
+    color: var(--headlinColor);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px;
+    text-decoration: none;
+    width: auto;
+}
+.me-auto.navBars.nav {
+    display: grid;
+    margin-left: 0px;
+    margin: 30px 0px;
+}
+
+.col-lg-3.col-md-3.col-sm-12{
+    text-align: left!important;
+}
+
+}
+
+
+/* Footer Css style ends to here  */

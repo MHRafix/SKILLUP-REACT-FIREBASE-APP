@@ -1,0 +1,79 @@
+/* Global Css style starts from here  */
+/* Site font load here  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* Common Css Starts Here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --headlineColor: #0e1133;
+    --button-bg: #2b4eff;
+    --home-bg: #edeef3;
+    --other-color: #0fa0dd;
+    --white: #ffffff;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Browser Scroll Bar Modify */
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:.8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--button-bg);
+    border-radius: 5rem;
+}
+
+
+/*====================================
+  some of responsive css
+  ==================================== */
+ 
+ @media only screen and (max-width: 500px){
+
+  h2.headline {
+    font-size: 35px;
+    line-height: 55px;
+}
+
+}
+
+@media only screen and (max-width: 450px){
+
+h2.headline {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+}
+
+
+@media only screen and (max-width: 375px){
+
+h2.headline {
+    font-size: 22px;
+    line-height: 32px;
+}
+}
+
+/* Global Css style ends to here  */

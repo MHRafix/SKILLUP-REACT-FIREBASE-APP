@@ -1,0 +1,53 @@
+/* Instructors Page Css Style Starts From Here */
+section .instructorsArea .initialBanner {
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 90%)), url('https://www.totaljobs.com/advice/wp-content/uploads/teacher-job-description-1024x576.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
+}
+.aboutPageWrapper {
+    padding: 0px 50px;
+}
+section .instructorsArea .initialBanner .pageIntro h3.pageName {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+
+section .instructorsArea .initialBanner {
+    display: flex;
+    align-items: center;
+}
+
+section .instructorsArea .initialBanner .pageIntro span.breadCrumb {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+section .instructorsArea .initialBanner .pageIntro a.homeLink {
+    text-decoration: none;
+}
+
+/* Responsive Css Starts From Here */
+@media only screen and (max-width: 425px){
+section .instructorsArea .initialBanner .pageIntro h3.pageName {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+
+}
+
+@media only screen and (max-width: 375px){
+section .instructorsArea .initialBanner .pageIntro h3.pageName {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+}

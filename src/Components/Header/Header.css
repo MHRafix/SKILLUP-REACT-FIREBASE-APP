@@ -1,0 +1,186 @@
+/* Header Css style starts from here  */
+section .headerWrapper {
+    padding: 10px 50px;
+    box-shadow: 5px 2px 3px #efd8d8;
+    background: #ffffff;
+    background-color: var(--home-bg);
+}
+
+.siteLogo{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--headlineColor);
+}
+
+.siteLogo span.logo span.fas.fa-meteor {
+    color: var(--button-bg);
+    font-size: 28px;
+    margin: 0px 3px;
+}
+
+.me-auto.navBars.navbar-nav {
+    margin-left: auto; 
+    height: 30px;
+}
+
+.me-auto.navBars.navbar-nav a.routingLink {
+    color: var(--headlinColor);
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: right;
+}
+
+.me-auto.navBars.navbar-nav a.routingLink:hover {
+    color: var(--button-bg);
+    border-bottom: 2px solid var(--button-bg);
+}
+
+.searchForm input.searchField {
+    padding: 8px 5px 8px 40px;
+    margin-right: 20px;
+    border: 0px;
+    background: var(--white);
+    outline: none;
+    border-radius: 5px;
+    color: var(--headlineColor);
+}
+
+.searchForm span.searchIcon.fas.fa-search {
+    color: var(--headlineColor);
+    position: absolute;
+    top: 19px;
+
+    /* width: 20px; */
+    right: 410px;
+    cursor: pointer;
+}
+
+.selected{
+    color: red;
+}
+
+button.buttonBtn {
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    background: var(--button-bg);
+    padding: 8px 15px;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+span.cartItemCount {
+    background: #2b4eff;
+    color: #ffffff;
+    padding: 0px 8px;
+    border-radius: 30px;
+    position: absolute;
+    right: 170px;
+    bottom: 30px;
+}
+
+a.routingLink {
+    font-size: 30px;
+    margin: 0px 10px;
+    color: #2b4eff;
+}
+
+
+/*====================================
+  Responsive Css starts from Here 
+  ====================================*/
+
+@media only screen and (max-width: 992px){
+   
+section .headerWrapper {
+    padding: 10px 20px;
+
+}
+.searchForm {
+    display: grid;
+    text-align: center;
+}
+span.cartItemCount {
+    background: #2b4eff;
+    color: #ffffff;
+    padding: 0px 8px;
+    border-radius: 30px;
+    position: absolute;
+    right: 46%;
+    bottom: 20%;
+}
+
+span.navbar-toggler-icon {
+    font-size: 25px;
+    color: var(--button-bg);
+}
+
+button.navbar-toggler.collapsed {
+    border: 2px solid var(--button-bg);
+    border-radius: 5px;
+    outline: none;
+}
+
+.me-auto.navBars.navbar-nav {
+    height: auto;
+}
+
+.searchForm span.searchIcon.fas.fa-search {
+    color: var(--headlineColor);
+    position: absolute;
+    top: 72%;
+    left: -95%;
+    right: 0px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.searchForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.searchForm input.searchField {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.me-auto.navBars.navbar-nav a.routingLink {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+
+div#basic-navbar-nav {
+    margin-top: 20px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+span.cartItemCount {
+    right: 45.5%;
+    bottom: 21%;
+}
+}
+
+@media only screen and (max-width: 425px) {
+span.cartItemCount {
+    right: 42%;
+    bottom: 20%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+span.cartItemCount {
+    right: 40%;
+    bottom: 21%;
+}
+}
+/* Header Css style ends to here  */

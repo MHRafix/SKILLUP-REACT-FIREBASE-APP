@@ -1,0 +1,52 @@
+section .servicesArea .initialBanner {
+    background-image: linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 90%)), url('https://www.softwaresuggest.com/blog/wp-content/uploads/2019/08/Challenges-of-business-service-monitoring-in-the-internet-of-services.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
+
+}
+.aboutPageWrapper {
+    padding: 0px 50px;
+}
+section .servicesArea .initialBanner .pageIntro h3.pageName {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+
+section .servicesArea .initialBanner {
+    display: flex;
+    align-items: center;
+}
+
+section .servicesArea .initialBanner .pageIntro span.breadCrumb {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+section .servicesArea .initialBanner .pageIntro a.homeLink {
+    text-decoration: none;
+}
+
+
+/*==================================
+  Responsive Css starts from here 
+===================================*/
+@media only screen and (max-width: 992px){
+
+.aboutPageWrapper {
+    padding: 0 25px;
+}
+
+}
+
+@media only screen and (max-width: 400px){
+section .servicesArea .initialBanner .pageIntro h3.pageName {
+    font-size: 35px;
+}
+
+}
